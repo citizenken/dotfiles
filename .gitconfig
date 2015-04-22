@@ -1,0 +1,18 @@
+[user]
+	name = Ken Petti
+	email = ken.petti@cloudlock.com
+[push]
+	default = current
+[color]
+	ui = true
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[core]
+	autocrlf = false
+[log]
+	decorate = short
+[alias]
+	ghpr="!git push && ~/ghpr"
+	dr="!git push origin :"
